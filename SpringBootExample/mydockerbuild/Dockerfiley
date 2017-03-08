@@ -1,0 +1,5 @@
+FROM centos
+VOLUME /tmp
+ADD sample-0.1.0.jar sample.jar
+RUN sh -c 'touch /sample.jar'
+
